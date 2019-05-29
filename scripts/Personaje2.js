@@ -7,7 +7,7 @@ class Personaje2 {
         this.app = app;
         this.x = x;
         this.y = 600;
-        this.imagenDos = this.app.loadImage("/imgs/Nave 2.png");
+        this.imagenDos = this.app.loadImage("./imgs/Nave 2.png");
         this.animacion = this.animacion.bind(this);
         setInterval(this.animacion, 200);
         this.moverIzq = false;
