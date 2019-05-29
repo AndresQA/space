@@ -11,7 +11,7 @@ class Enemigo{
         this.animar=setInterval(this.animacion,200);
         this.mover=this.mover.bind(this);
         this.moviendose=setInterval(this.mover,15);
-        this.hardcore = 3.5;
+        this.hardcore = 2;
 
     }
 
@@ -19,20 +19,20 @@ class Enemigo{
 pintar(){
 this.app.image(this.imagen[this.punt],this.x,this.y);
 
-if(this.tiempo > 25){
-    this.hardcore =5.5;
+if(this.tiempo > 48){
+    this.hardcore =3;
 }
 
-if(this.tiempo > 35){
+if(this.tiempo > 60){
+    this.hardcore =4.5;
+}
+
+if(this.tiempo > 75){
+    this.hardcore =6;
+}
+
+if(this.tiempo > 90){
     this.hardcore =8;
-}
-
-if(this.tiempo > 55){
-    this.hardcore =10;
-}
-
-if(this.tiempo > 70){
-    this.hardcore =12;
 }
 
 }
