@@ -31,7 +31,7 @@ class Logica {
         this.impacto.amp(0.5);
         this.colision.amp(0.4);
         this.perdida.amp(0.3);
-        this.dificultad = 1050;
+        this.dificultad = 950;
     }
 
     pintar() {
