@@ -18,7 +18,7 @@ class Logica {
         this.controles = this.app.loadImage("./imgs/controles.png");
         this.inicia = {};
         this.inicia.start = new Elemento(this.app, "./imgs/jugar.png", 600, 500);
-        this.inicia.comenzar = new Elemento(this.app, "/imgs/jugar.png", 600, 630);
+        this.inicia.comenzar = new Elemento(this.app, "./imgs/jugar.png", 600, 630);
         this.vidaj1ico = this.app.loadImage("./imgs/j1.png");
         this.vidaj2ico = this.app.loadImage("./imgs/j2.png");
         this.final = this.app.loadImage("./imgs/final.png");
