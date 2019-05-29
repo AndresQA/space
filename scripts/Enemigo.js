@@ -19,20 +19,20 @@ class Enemigo{
 pintar(){
 this.app.image(this.imagen[this.punt],this.x,this.y);
 
-if(this.tiempo > 48){
-    this.hardcore =3;
+if(this.tiempo > 35){
+    this.hardcore =3.5;
 }
 
 if(this.tiempo > 60){
-    this.hardcore =4.5;
+    this.hardcore =5.5;
 }
 
 if(this.tiempo > 75){
-    this.hardcore =6;
+    this.hardcore =7;
 }
 
 if(this.tiempo > 90){
-    this.hardcore =8;
+    this.hardcore =10;
 }
 
 }
