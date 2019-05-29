@@ -8,7 +8,7 @@ class Personaje {
         this.x = x;
         this.y = 600;
         this.jugador = jugador;
-        this.imagen = this.app.loadImage("/imgs/Nave 1.png");
+        this.imagen = this.app.loadImage("./imgs/Nave 1.png");
         this.animacion = this.animacion.bind(this);
         setInterval(this.animacion, 200);
         this.moverIzq = false;
