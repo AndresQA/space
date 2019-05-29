@@ -5,7 +5,7 @@ class Poder2{
         this.app=app;
         this.x=x;
         this.y=y;
-        this.imagen=(this.app.loadImage('/imgs/Misil2.png'));
+        this.imagen=(this.app.loadImage('./imgs/Misil2.png'));
         this.mover=this.mover.bind(this);
         this.moviendose=setInterval(this.mover,50);
     }
